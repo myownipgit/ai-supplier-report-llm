@@ -1,0 +1,209 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+data/
+!data/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Vim swap files
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.Trash-*
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+build/
+dist/
+*.tgz
+*.tar.gz
+
+# Frontend specific
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/npm-debug.log*
+
+# Backend specific
+backend/.env
+backend/logs/
+backend/data/
+backend/uploads/
+backend/npm-debug.log*
+
+# Test coverage
+coverage/
+*.lcov
+
+# PM2
+.pm2/
+
+# Docker
+.dockerignore
+Dockerfile.dev
+docker-compose.override.yml
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# System files
+*.tmp
+*.temp
+
+# Editor files
+.history/
+
+# Package manager lock files (keep package-lock.json but ignore yarn.lock)
+yarn.lock
+
+# Deployment files
+deploy.key
+*.pem
+*.key
+
+# Certificates
+*.crt
+*.cert
+*.p12
+*.pfx
+
+# Local configuration overrides
+config.local.js
+config.local.json
+
+# Monitoring and analytics
+.nyc_output/
+
+# Profiling
+isolate-*.log
+v8.log
+
+# Cache directories
+.cache/
+.npm/
+.yarn/
+
+# Lock files
+package-lock.json
+!backend/package-lock.json
+!frontend/package-lock.json
